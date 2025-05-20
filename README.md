@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 20-05-2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: SHAIK SAMREEN
+###  ROLL NO : 212223110047
+###  DEPARTMENT: BE.CSE(IOT)
 
 
 
@@ -87,13 +87,34 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
+```
+#include "main.h"
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
 
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(3000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(3000);
+  }
+}
+```
 
 
 
 ## OUTPUT  :
- 
- 
+## OFF:
+ ![424825824-59e12d6a-1965-45ff-aad4-ea62ecaa4d46](https://github.com/user-attachments/assets/f1a5c3bb-e822-42d7-9bc8-c6f2f28bbd02)
+## ON:
+![424825726-95ecea4e-e845-46ae-bec6-b5d72710c574](https://github.com/user-attachments/assets/6b089df0-ff69-4b00-aa61-cf848d5a7493)
+
  
  
 ## Result :
