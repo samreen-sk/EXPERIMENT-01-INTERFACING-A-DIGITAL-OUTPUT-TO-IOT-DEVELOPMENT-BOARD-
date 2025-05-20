@@ -1,3 +1,7 @@
+
+# EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
+
+
 ###  DATE: 20-05-2024
 
 ###  NAME: SHAIK SAMREEN
@@ -5,8 +9,6 @@
 ###  DEPARTMENT: BE.CSE(IOT)
 
 
-
-# EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
 
 ## Aim: To Interface a Digital output (LED) to ARM IOT development board and write a  program to blink an led 
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
